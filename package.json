@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A bunch of useful math functions",
   "main": "index.js",
+  "sideEffects": false,
   "scripts": {
     "test": "exit 0"
   },
