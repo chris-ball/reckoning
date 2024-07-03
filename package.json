@@ -1,11 +1,8 @@
 {
 	"name": "@chris-ball/reckoning",
-	"version": "1.0.0",
+	"version": "0.0.2",
 	"description": "A bunch of useful math functions",
 	"main": "index.js",
-	"publishConfig": {
-		"@chris-ball:registry": "https://npm.pkg.github.com"
-	},
 	"sideEffects": false,
 	"scripts": {
 		"test": "exit 0"
