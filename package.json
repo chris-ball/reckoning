@@ -4,7 +4,7 @@
 	"description": "A bunch of useful math functions",
 	"main": "index.js",
 	"publishConfig": {
-		"@chris-ball:reckoning": "https://npm.pkg.github.com"
+		"@chris-ball:registry": "https://npm.pkg.github.com"
 	},
 	"sideEffects": false,
 	"scripts": {
