@@ -1,23 +1,31 @@
 {
 	"name": "@chris-ball/reckoning",
-	"version": "0.0.2",
+	"author": "Chris Ball",
+	"license": "MIT",
+	"version": "0.0.1",
 	"description": "A bunch of useful math functions",
-	"main": "index.js",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"//types": "./dist/index.d.ts",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
 	"sideEffects": false,
 	"scripts": {
-		"test": "exit 0"
+		"test": "vitest",
+		"build": "tsup"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/chris-ball/reckoning.git"
 	},
-	"author": "Chris Ball",
-	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/chris-ball/reckoning/issues"
 	},
 	"homepage": "https://github.com/chris-ball/reckoning#readme",
 	"devDependencies": {
-		"typescript": "^5.5.2"
+		"tsup": "^8.1.0",
+		"typescript": "^5.5.2",
+		"vitest": "^1.6.0"
 	}
 }

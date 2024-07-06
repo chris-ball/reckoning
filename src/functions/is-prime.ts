@@ -3,7 +3,7 @@
  * @param n - The number to check
  * @returns Boolean
  */
-function isPrime(n: number): boolean {
+export function isPrime(n: number): boolean {
 	if (!Number.isInteger(n) || n < 2) return false
 
 	for (let i = 2; i <= Math.sqrt(n); i++) {
@@ -12,5 +12,3 @@ function isPrime(n: number): boolean {
 
 	return true
 }
-
-export default isPrime

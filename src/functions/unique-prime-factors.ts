@@ -1,11 +1,11 @@
-import isPrime from "./is-prime"
+import { isPrime } from "./is-prime"
 
 /**
  * 
  * @param n - The number to factor
  * @returns An array of unique prime factors
  */
-function uniquePrimeFactors(n: number): number[] {
+export function uniquePrimeFactors(n: number): number[] {
 	const result: number[] = []
 
 	for (let i = 2; i <= n; i++) {
@@ -17,5 +17,3 @@ function uniquePrimeFactors(n: number): number[] {
 
 	return result
 }
-
-export default uniquePrimeFactors

@@ -5,8 +5,6 @@
  * @param start - The number to start from (default: 1).
  * @returns An array of integers.
  */
-function integersUntil(limit: number, start: number = 1): number[] {
+export function integersUntil(limit: number, start: number = 1): number[] {
 	return Array.from({length: limit}, (_, i) => i + start)
 }
-
-export default integersUntil
