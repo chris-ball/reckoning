@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import isPrime from '../src/is-prime'
+import { isPrime } from '../src/functions/is-prime'
 
 test('checks if 2 is prime', () => {
 	expect(isPrime(2)).toBe(true)

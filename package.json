@@ -2,7 +2,7 @@
 	"name": "@chris-ball/reckoning",
 	"author": "Chris Ball",
 	"license": "MIT",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "A bunch of useful math functions",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",

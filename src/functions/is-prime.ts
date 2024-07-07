@@ -1,6 +1,6 @@
 /**
- * Checks whether a number is prime or not
- * @param n - The number to check
+ * Checks whether an integer is prime.
+ * @param n - Integer to check
  * @returns Boolean
  */
 export function isPrime(n: number): boolean {

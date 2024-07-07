@@ -1,6 +1,6 @@
 /**
- * Checks whether a number is square or not
- * @param n - The number to check
+ * Checks whether a number is square.
+ * @param n - Integer to check
  * @returns Boolean
  */
 export function isSquare(n: number): boolean {

@@ -1,7 +1,7 @@
 import { isPrime } from "./is-prime"
 
 /**
- * 
+ * Generates an array of all prime factors of a given number.
  * @param n - The number to factor
  * @returns An array of unique prime factors
  */

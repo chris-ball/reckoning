@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import isSquare from '../src/is-square'
+import { isSquare } from '../src/functions/is-square'
 
 test('checks if 1 is square', () => {
 	expect(isSquare(1)).toBe(true)
