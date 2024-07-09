@@ -5,5 +5,7 @@
  * @returns An array of integers.
  */
 export function integersUntil(end: number, start: number = 1): number[] {
+	if (!Number.isInteger(end) || !Number.isInteger(start)) throw new Error("inputs must be integer");
+
 	return Array.from({length: end - start + 1}, (_, i) => i + start)
 }
