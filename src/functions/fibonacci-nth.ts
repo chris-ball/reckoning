@@ -4,6 +4,8 @@
  * @returns The nth number in the fibonacci sequence
  */
 export function fibonacciNth(n: number): number {
+	if (!Number.isInteger(n)) throw new Error("input must be an integer");
+
 	let a = 0
 	let b = 1
 	let c: number
